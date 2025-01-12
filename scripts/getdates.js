@@ -1,9 +1,9 @@
-// Dynamically set the current year
-const yearSpan = document.getElementById('currentyear');
-const currentYear = new Date().getFullYear();
-yearSpan.textContent = currentYear;
-
-// Dynamically set the last modified date
-const lastModified = document.lastModified;
-const lastModifiedElement = document.getElementById('lastModified');
-lastModifiedElement.textContent = `Last Modified: ${lastModified}`;
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtener el año actual
+    const currentYear = new Date().getFullYear();
+    document.getElementById("currentyear").textContent = currentYear;
+  
+    // Obtener la última fecha de modificación del documento
+    const lastModified = document.lastModified;
+    document.getElementById("lastModified").textContent = `Last modification: ${lastModified}`;
+  });
