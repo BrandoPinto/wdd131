@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD 131 - Dynamic Web Fundamentals - Brando Pinto</title>
+  <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Brando Pinto.">
+  <meta name="Brando Pinto" content="Brando Pinto">
+  <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+  <header>
+    <h1>WDD 131 - Dynamic Web Fundamentals</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+        <li><a href="https://byupw.instructure.com/" target="_blank">Canvas</a></li>
+        <li>
+          <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7" target="_blank">
+            Scripture
+          </a>
+        </li>
+        <li><a href="#">Final Project</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>About Me</h2>
+      <div class="card-content">
+        <img src="images/me.jpg" alt="Profile photo" class="profile-img">
+        <p>Your name and some personal details about yourself.</p>
+      </div>
+    </section>
+    <section class="card">
+      <h2>My Location</h2>
+      <div class="card-content">
+        <p>Details about your city or country.</p>
+        <img src="images/arequipa.jpg" alt="Arequipa" class="location-img">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      &copy; <span id="currentyear"></span> Your Name • Your State or Country
+    </p>
+    <p id="lastModified"></p>
+  </footer>
+
+  <script src="scripts/getdates.js" defer></script>
+</body>
+</html>
