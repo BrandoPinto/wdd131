@@ -25,14 +25,14 @@ header {
 header h1 {
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
-    color: #ffd700; /* Color dorado para el título principal */
+    color: #ffd700; 
 }
 
 nav {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    background-color: #444; /* Fondo diferente para el menú */
+    background-color: #444; 
     padding: 0.5rem 0;
 }
 
@@ -61,11 +61,11 @@ main {
 /* Card Styles */
 .grid-container {
     display: grid;
-    grid-template-columns: 3fr 2fr; /* Ajusta las proporciones de las columnas */
+    grid-template-columns: 3fr 2fr; 
     gap: 20px;
-    max-width: 80%; /* Asegúrate de que ocupe todo el ancho disponible */
-    padding: 20px 20px; /* Añade un poco de padding a los lados */
-    margin: 0 auto; /* Centra el contenedor */
+    max-width: 80%;
+    padding: 20px 20px; 
+    margin: 0 auto; 
   }
   
   .card {
@@ -130,7 +130,7 @@ main {
     gap: 1rem;
 }
 
-/* Inner Grid for "About Me" and "Toloria, Madagascar" */
+
 .card-content.split {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
