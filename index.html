@@ -1,81 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Brando Pinto.">
-    <meta name="author" content="Brando Pinto">
-    <title>WDD 131 - Dynamic Web Fundamentals - Brando Pinto</title>
-     <!-- Google Fonts Preconnect -->
-     <link rel="preconnect" href="https://fonts.googleapis.com" />
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles/base.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="WDD 131 - Dynamic Web Fundamentals, taught by Elisha Sunday, explores 
+      the fundamentals of HTML, CSS, and JavaScript. Gain skills to design dynamic 
+      and responsive websites in this foundational web development course."
+    />
+    <meta name="author" content="Elisha Sunday" />
+    <title>WDD 131 - Dynamic Web Fundamentals - Elisha Sunday</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
-    >
+    />
   </head>
   <body>
-    <header>
-      <h1>WDD 131: Dynamic Web Fundamentals - Brando Pinto</h1>
-      <nav>
-        <a href="https://www.linkedin.com/in/brando-pinto-2109b5208/" target="_blank">LinkedIn</a>
-        <a href="https://byupw.instructure.com" target="_blank">Canvas</a>
-        <a href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/122?lang=eng&id=p6-p9#p6" target="_blank"
-          >Scripture</a
-        >
-        <a href="#">Final Project</a>
-      </nav>
-    </header>
-
-    <main class="grid-container">
-      <!-- First Card -->
-      <section class="card card-wide">
-        <div class="card-header">About Me</div>
-        <div class="card-content split">
-          <div class="about-me">
-            <h2>About Me</h2>
-            <p>
-              My name is Brando, I am from Arequipa Peru, I like to play soccer and spend time with my friends.
-            </p>
+    <div class="container">
+      <div class="header-container">
+        <header>
+          <div class="heading">
+            <h1>
+              WDD 131: Dynamic Web Fundamentals - <span> Brando Pinto</span>
+            </h1>
           </div>
-          <div class="about-me-photo">
-            <img src="images/me.jpg" alt="Photo of Brando">
+          <div class="nav-container">
+            <nav>
+              <ul>
+                <li>
+                  <a href="https://www.linkedin.com/in/brando-pinto-2109b5208/" target="_blank"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li><a href="https://byupw.instructure.com/" target="_blank">Canvas</a></li>
+                <li>
+                  <a
+                    href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/122?lang=spa&id=p7-p9#p7" target="_blank"
+                    >Scripture</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank">Final Project</a>
+                </li>
+              </ul>
+            </nav>
           </div>
-        </div>
-        <div class="card-content split">
-          <div class="arequipa-photo">
-            <img src="images/arequipa.jpg" alt="Photo of Arequipa">
+        </header>
+      </div>
+      <div class="main-container">
+        <main>
+          <div class="about-section-container">
+            <section>
+              <div class="card">
+                <div class="card-h2"><h2>About Me</h2></div>
+                <br />
+                <div class="abt-txt">
+                  <div class="div1">
+                    <p>
+                      Hi, I’m Brando Pinto, a passionate programmer and lifelong
+                      learner. <br />
+                      I enjoy playing soccer, spending quality time with my
+                      friends, and connecting with my family. <br />
+                      Programming is not just a skill for me; it’s something I
+                      deeply enjoy as it allows me to solve problems and bring
+                      ideas to life. <br />
+                      When I’m not coding, you can find me exploring new
+                      technologies, sharing great moments with loved ones, or
+                      enjoying a good game of soccer. <br />
+                    </p>
+                    <img class="mypic" src="images/me.jpg" alt="Brando Pinto" />
+                  </div>
+                  <br />
+                  <br />
+                  <div class="country">
+                    <h2>Arequipa, Peru</h2>
+                  </div>
+                  <hr />
+                  <div class="div2">
+                    <img
+                      class="arequipa-city"
+                      src="images/arequipa.jpg"
+                      alt="Arequipa"
+                    />
+                    <p>
+                      I’m proud to be from Arequipa, Peru, a city known as the
+                      "White City" for its beautiful architecture built from
+                      volcanic sillar stone. <br />
+                      Arequipa is surrounded by breathtaking landscapes,
+                      including the majestic Misti Volcano, the deep Colca
+                      Canyon, and the lush valleys. <br />
+                      The city is also famous for its rich history, vibrant
+                      traditions, and delicious cuisine, including dishes like
+                      rocoto relleno and adobo. <br />
+                      Arequipa is a place of creativity, resilience, and
+                      innovation, and I’m honored to call it my home.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section>
+              <div class="links-card">
+                <div class="card-h2">
+                  <h2>Web Dev Resources</h2>
+                </div>
+                <div class="links-container">
+                  <ul>
+                    <li><a href="https://dev.to/">Dev.to Community</a></li>
+                    <li>
+                      <a href="https://www.smashingmagazine.com/"
+                        >Smashing Magazine</a
+                      >
+                    </li>
+                    <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                    <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                    <li>
+                      <a href="https://www.udemy.com/courses/free/">Udemy</a>
+                    </li>
+                    <li>
+                      <a href="https://placehold.co/">Image Placeholder</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
           </div>
-          <div class="arequipa">
-            <h2>Areqipa, Peru</h2>
-            <p>
-              Arequipa is the 2nd largest city in Peru, it is known as the white city. 
-            </p>
+        </main>
+      </div>
+      <div class="footer-container">
+        <footer>
+          <div class="footer-p-container">
+            <p id="year"></p>
+            <p id="lastModified"></p>
           </div>
-        </div>
-      </section>    
-      <!-- Second Card -->
-      <section class="card card-narrow">
-        <div class="card-header">Web Dev Resources</div>
-        <div class="card-content">
-          <ul>
-            <li><a href="https://dev.to">Dev.to Community</a></li>
-            <li><a href="https://www.smashingmagazine.com">Smashing Magazine</a></li>
-            <li><a href="https://css-tricks.com">CSS Tricks</a></li>
-            <li><a href="https://www.w3schools.com">W3 Schools</a></li>
-            <li><a href="https://www.udemy.com">Udemy</a></li>
-            <li><a href="https://placeholder.com">Image Placeholder</a></li>
-          </ul>
-        </div>
-      </section>
-    </main>
-    
-    <footer>
-      <p>&copy; <span id="currentyear"></span> Brando Pinto</p>
-      <p id="lastModified"></p>
-    </footer>
+        </footer>
+      </div>
+    </div>
     <script src="scripts/getdates.js" defer></script>
   </body>
 </html>

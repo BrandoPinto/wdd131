@@ -1,0 +1,50 @@
+@media (max-width:600px) {
+    nav {
+       display: none;
+    }
+   
+    #btn-menu{
+       display: block;
+    }
+    header{
+       height: 3rem !important;
+    }
+    header div h1{
+       font-size: 12px;
+     
+    }
+    main h2{
+       font-size: 12px  !important;;  
+    }
+   
+    figcaption{
+       font-size: 10px;
+    }
+   
+   nav a{
+      display: block;
+      padding: 5px;
+   }
+   header div {
+      margin-left: -1rem;
+      
+   }
+    
+   nav.vissible{
+     display: block; 
+     margin-top: 3rem;
+     height: 13rem;
+     width: 100% !important;
+     z-index:1;
+     padding: 10px;
+     background-color: #00274d;
+   
+   }
+   
+   
+   
+   footer p{
+      font-size: 15px !important;
+    }
+    
+   }
